@@ -1,0 +1,28 @@
+{
+  "name": "toc-to-html",
+  "version": "0.1.0",
+  "description": "changes toc (one-level json array) to html (nested list)",
+  "keywords": [
+    "toc",
+    "table of contents",
+    "html",
+    "list",
+    "ul",
+    "li",
+    "nested",
+    "tree",
+    "convert",
+    "transform",
+    "render",
+    "markdown-toc"
+  ],
+  "main": "./src/toc-to-html.js",
+  "author": "Pavel Bucka",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
