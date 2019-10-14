@@ -1,9 +1,9 @@
-# `toc-to-html`
+# toc-to-html
 
 `toc-to-html` can change one-level array `toc` (table of contents)
 to a nested `html` list.
 
-## Example `toc`
+## Example toc
 
 Let's say we have `toc` that looks like this:
 
@@ -40,20 +40,20 @@ const toc = [
 `toc` can be created by `markdown-toc`
 or other if following same structure.
 
-## Example `html`
+## Example html
 
 The `html` we get:
 
 ```html
 <ul>
-  <li>Coffee</li>
-  <li>Tea
+  <li><a href="#coffee">Coffee</a></li>
+  <li><a href="#tea">Tea</a>
     <ul>
-      <li>Black tea</li>
-      <li>Green tea</li>
+      <li><a href="#black-tea">Black tea</a></li>
+      <li><a href="#green-tea">Green tea</a></li>
     </ul>
   </li>
-  <li>Milk</li>
+  <li><a href="#milk">Milk</a></li>
 </ul>
 ```
 
