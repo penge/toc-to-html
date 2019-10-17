@@ -4,27 +4,27 @@ const tocToHtml = require('../src/toc-to-html');
 const toc = [
   {
     content: 'Coffee',
-    slug: '#coffee',
+    slug: 'coffee',
     lvl: 2
   },
   {
     content: 'Tea',
-    slug: '#tea',
+    slug: 'tea',
     lvl: 2
   },
   {
     content: 'Black tea',
-    slug: '#black-tea',
+    slug: 'black-tea',
     lvl: 3
   },
   {
     content: 'Green tea',
-    slug: '#green-tea',
+    slug: 'green-tea',
     lvl: 3
   },
   {
     content: 'Milk',
-    slug: '#milk',
+    slug: 'milk',
     lvl: 2
   }
 ];

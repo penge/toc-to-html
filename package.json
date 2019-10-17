@@ -1,6 +1,6 @@
 {
   "name": "toc-to-html",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "changes toc (one-level json array) to html (nested list)",
   "keywords": [
     "toc",

@@ -2,8 +2,8 @@
 const tocToHtml = require('../src/toc-to-html');
 
 const toc = [
-  { content: 'Heading O', slug: '#heading-o', lvl: 2 },
-  { content: 'Heading I', slug: '#heading-i', lvl: 2 },
+  { content: 'Heading O', slug: 'heading-o', lvl: 2 },
+  { content: 'Heading I', slug: 'heading-i', lvl: 2 },
 ];
 
 const html = tocToHtml(toc, {

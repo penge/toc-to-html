@@ -3,7 +3,7 @@ function renderHeading(heading) {
     return '';
   }
 
-  return `<a href="${heading.slug}">${heading.content}</a>`;
+  return `<a href="#${heading.slug}">${heading.content}</a>`;
 }
 
 function renderChildren(children, options) {
